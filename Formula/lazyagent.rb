@@ -1,25 +1,25 @@
 class Lazyagent < Formula
   desc "A lazygit-style TUI for managing AI coding agent sessions"
   homepage "https://github.com/tim101010101/lazyagent"
-  version "0.2.1"
+  version "0.3.0"
   if OS.mac?
     if Hardware::CPU.arm?
-      url "https://github.com/tim101010101/lazyagent/releases/download/v0.2.1/lazyagent-aarch64-apple-darwin.tar.xz"
-      sha256 "33847412ee401bdba4b5819994a6efd11f5acd53c7f93d0601aed1d5baba7a93"
+      url "https://github.com/tim101010101/lazyagent/releases/download/v0.3.0/lazyagent-aarch64-apple-darwin.tar.xz"
+      sha256 "e1b906baad6961d03c8e1b21960f29dd61d9c2d95ef6c3b2588c01f8f3e5adbb"
     end
     if Hardware::CPU.intel?
-      url "https://github.com/tim101010101/lazyagent/releases/download/v0.2.1/lazyagent-x86_64-apple-darwin.tar.xz"
-      sha256 "2d7ba962d21f2baba42a304cc03b04ac3ea80d446c7a95cc10ab7128e47b39da"
+      url "https://github.com/tim101010101/lazyagent/releases/download/v0.3.0/lazyagent-x86_64-apple-darwin.tar.xz"
+      sha256 "40634856cac7d4e2fd2309760ce8f8366660f7520049e1c4c0ef6f785f41d486"
     end
   end
   if OS.linux?
     if Hardware::CPU.arm?
-      url "https://github.com/tim101010101/lazyagent/releases/download/v0.2.1/lazyagent-aarch64-unknown-linux-gnu.tar.xz"
-      sha256 "88b144985ddafa48847180968ac59e5e9ab82e68a8bb3cc71adc6ab342e79034"
+      url "https://github.com/tim101010101/lazyagent/releases/download/v0.3.0/lazyagent-aarch64-unknown-linux-gnu.tar.xz"
+      sha256 "8dac64b6c26fd63f1b9c8ab5f346b742aec406ef6dbe93062c438d4f4b11aa04"
     end
     if Hardware::CPU.intel?
-      url "https://github.com/tim101010101/lazyagent/releases/download/v0.2.1/lazyagent-x86_64-unknown-linux-gnu.tar.xz"
-      sha256 "ba50b24a3308efa43091c212f7525878c30ca01b6d254e9fb5813bd7d8eeed13"
+      url "https://github.com/tim101010101/lazyagent/releases/download/v0.3.0/lazyagent-x86_64-unknown-linux-gnu.tar.xz"
+      sha256 "de86af8c2b2957e33115a57b8da020213da5ede15e1094e5f92181019813756a"
     end
   end
   license "MIT"
